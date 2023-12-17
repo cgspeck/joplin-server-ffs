@@ -13,11 +13,11 @@ version: '3'
 
 services:
     joplin:
-        image: cgspeck/joplin-ffs:latest
+        image: ghcr.io/cgspeck/joplin-server-ffs:main
         restart: always
         environment:
             - APP_PORT=22300
-            - APP_BASE_URL=https://joplin.your.comain
+            - APP_BASE_URL=https://joplin.your.domain
             - DB_CLIENT=pg
             - POSTGRES_PASSWORD=postgres_password
             - POSTGRES_DATABASE=postgres_db
