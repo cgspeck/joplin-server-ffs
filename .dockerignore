@@ -1,0 +1,7 @@
+env
+.env
+.envrc
+.git
+.gitignore
+README.md
+Makefile
