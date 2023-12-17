@@ -1,4 +1,4 @@
-# Joplin Server Fast Found Fixes
+# Joplin Server Fast Fixes and Solutions
 
 Duct-tape, glue and WD-40 which is required for the Joplin server to actually start.
 
